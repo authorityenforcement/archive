@@ -1,9 +1,9 @@
 -- Compiled with roblox-ts v3.0.0
 -- SETTINGS
 local HitChance = 100
-local wallcheck = true
+local wallcheck = false
 local TargetParts = { "Head", "Torso" }
-local radius = 100
+local radius = 150
 local Players = cloneref(game:GetService("Players"))
 local RunService = cloneref(game:GetService("RunService"))
 local ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"))
