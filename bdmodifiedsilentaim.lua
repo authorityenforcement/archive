@@ -3,7 +3,7 @@
 local HitChance = 100
 local wallcheck = true
 local TargetParts = { "Head", "Torso" }
-local radius = 150
+local radius = 100
 local Players = cloneref(game:GetService("Players"))
 local RunService = cloneref(game:GetService("RunService"))
 local ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"))
