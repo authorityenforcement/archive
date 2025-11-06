@@ -18,7 +18,7 @@ end
 local function LoadScript()
     return [=[
         print("hii")
-        return loadstring(game:HttpGet("https://raw.githubusercontent.com/RelkzzRebranded/BloodDebtIsGay/refs/heads/main/core.lua"))()
+        return loadstring(game:HttpGet("https://raw.githubusercontent.com/authorityenforcement/archive/refs/heads/main/bdsilentsource.lua"))()
     ]=]
 end
 if CheckFFlagValue("DebugRunParallelLuaOnMainThread", true) then
