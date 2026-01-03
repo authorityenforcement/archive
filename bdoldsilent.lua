@@ -392,7 +392,7 @@ do
 	circle.Filled = false
 	circle.NumSides = 15
 	circle.Thickness = 2
-	circle.Visible = true
+	circle.Visible = false
 	circle.Color = Color3.new(1, 1, 1)
 	local function __init()
 		RunService.RenderStepped:Connect(function()
